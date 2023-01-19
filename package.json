@@ -1,0 +1,23 @@
+{
+  "name": "proyectonodej",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ysf98/ProyectonodeJ.git"
+  },
+  "author": "Yael",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ysf98/ProyectonodeJ/issues"
+  },
+  "homepage": "https://github.com/ysf98/ProyectonodeJ#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node": "^19.4.0"
+  }
+}
