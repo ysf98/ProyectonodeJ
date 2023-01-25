@@ -9,7 +9,8 @@ pipeline {
         }
         stage('test') {
             steps{
-                sh "node sum.test.js"
+                sh "npm install jest"
+                sh "npm test"
             }
         }
         stage('deploy') {
